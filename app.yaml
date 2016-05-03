@@ -16,7 +16,7 @@ handlers:
  static_dir: lib
 
 - url: /lib/flask
- script: index.php
+ script: a
 
 - url: /(.*\.json)
  mime_type: application/json
