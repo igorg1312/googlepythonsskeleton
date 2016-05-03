@@ -15,8 +15,7 @@ handlers:
 - url: /lib
  static_dir: lib
 
-- url: /lib/flask
- script: app.py
+
 
 
 
