@@ -15,10 +15,6 @@ handlers:
 - url: /lib
  static_dir: lib
 
-
-
-
-
 # App Engine serves and caches static files contained in the listed directories
 # (and subdirectories). Uncomment and set the directory as needed.
 #- url: /client
