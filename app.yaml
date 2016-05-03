@@ -11,7 +11,8 @@ threadsafe: true
 
 
 # Handlers define how to route requests to your application.
-handlers:- url: /static
+handlers:
+- url: /static
  static_dir: static
 
 - url: /.*
