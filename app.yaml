@@ -12,8 +12,8 @@ threadsafe: true
 
 # Handlers define how to route requests to your application.
 handlers:
-- url: /libv
- static_dir: static
+- url: /lib
+ static_dir: lib
 
 - url: /.*
  script: index.php
