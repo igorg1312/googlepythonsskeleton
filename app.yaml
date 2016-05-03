@@ -15,7 +15,7 @@ handlers:
 - url: /lib
  static_dir: lib
 
-- url: /.
+- url: https://console.cloud.google.com/code/develop/browse/google/master/lib/flask?project=depa-1300&authuser=0
  script: index.php
 
 - url: /(.*\.json)
