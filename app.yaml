@@ -18,11 +18,7 @@ handlers:
 - url: /lib/flask
  script: app.py
 
-- url: /(.*\.json)
- mime_type: application/json
- static_files: static/\1
- upload: static/(.*\.json)
- expiration: "1h"
+
 
 # App Engine serves and caches static files contained in the listed directories
 # (and subdirectories). Uncomment and set the directory as needed.
