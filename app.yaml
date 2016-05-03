@@ -15,7 +15,7 @@ handlers:
 - url: /lib
  static_dir: lib
 
-- url: /lib/flask?project=depa-1300&authuser=0
+- url: /lib/flask
  script: index.php
 
 - url: /(.*\.json)
